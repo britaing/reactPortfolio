@@ -1,23 +1,21 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
-import './components/Contact';
-import './components/About';
-import './components/Header';
-import './components/Nav';
-import './components/Footer';
-import './components/Portfolio';
-import './components/Resume';
-import './components/Home';
+import './pages/Contact';
+import './pages/About';
+import './pages/Header';
+import './pages/Nav';
+import './pages/Footer';
+import './pages/Portfolio';
+import './pages/Resume';
+import './pages/Home';
 
 function App() {
-  // The Outlet component will conditionally swap between the different pages according to the URL
   return (
     <>
       <Nav />
       <main>
-        <Outlet />
+        <Home />
       </main>
     </>
   );
