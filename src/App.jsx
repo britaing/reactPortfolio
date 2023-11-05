@@ -1,28 +1,20 @@
 import { useState } from 'react'
-
 import './App.css'
-import './pages/Contact';
-import './pages/About';
-import './pages/Header';
-import './pages/Nav';
-import './pages/Footer';
-import './pages/Portfolio';
-import './pages/Resume';
-import './pages/Home';
+import Header from './components/Header';
+import Footer from './components/Footer';
+
 
 function App() {
+
   return (
     <>
-      <Nav />
-      <main>
-        <Home />
-      </main>
+      <Header />
+      <div>
+       <h1>poop</h1>
+      </div>
+      <Footer />
     </>
-  );
+  )
 }
 
-export default App;
-
-
-
-
+export default App
