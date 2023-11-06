@@ -4,7 +4,7 @@ function Footer() {
 
     return (
         <div>
-            <h1>Poop</h1>
+            <p>2023 Britain Gilgour Bootcamp</p>
         </div>
     );
 

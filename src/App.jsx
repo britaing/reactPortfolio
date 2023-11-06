@@ -10,7 +10,7 @@ function App() {
     <>
       <Header />
       <div>
-       <h1>poop</h1>
+       <p>Body</p>
       </div>
       <Footer />
     </>

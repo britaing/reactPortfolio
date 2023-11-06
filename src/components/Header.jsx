@@ -1,10 +1,13 @@
 import React from 'react';
+import Nav from './Nav';
+
 
 function Header() {
 
     return (
         <div>
-            <h1>Poop</h1>
+            <h1>Britain Gilgour Portfolio</h1>
+            <Nav />
         </div>
     );
 
