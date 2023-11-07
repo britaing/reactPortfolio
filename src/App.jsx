@@ -1,20 +1,23 @@
-import { useState } from 'react'
-import './App.css'
-import Header from './components/Header';
-import Footer from './components/Footer';
+import { useState } from "react";
+import "./App.css";
+import Menu from './components/menu';
+import Footer from "./components/footer";
+import About from "./components/about";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
-
   return (
     <>
-      <Header />
-      <div>
-       <p>Body</p>
-      </div>
-      <Footer />
+    <div>
+      <Menu/>
+    </div>
+    <div>
+    <About/>
+    </div>
+    <Footer/>
     </>
   )
 }
 
-export default App
+export default App;
