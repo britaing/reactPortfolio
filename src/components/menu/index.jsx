@@ -9,7 +9,7 @@ import Col from "react-bootstrap/Col";
 
 function Menu(props) {
   return (
-    <div className="d-flex p-2"  >
+    <div className="d-flex p-2 navMenu"  >
       <Navbar fixed="top" bg="dark" data-bs-theme="dark" >
         <Container fluid="lg">
           <Navbar.Brand href="https://github.com/britaing">
