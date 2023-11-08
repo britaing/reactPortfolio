@@ -1,12 +1,17 @@
-function About() {
-    return (
-        <div  >
-            
-            <h1 >This is all about me and why I'm doing this.
+import './style.css';
 
-            </h1>
-        </div>
-    );
+function About() {
+  return (
+  <>
+    <div className='bgImage' id='about'>
+
+    
+    
+    </div>
+  
+  
+  </>
+  );
 }
 
 export default About;

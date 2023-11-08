@@ -7,3 +7,5 @@ function Portfolio() {
 }
 
 export default Portfolio;
+
+// use cards https://react-bootstrap.netlify.app/docs/components/cards
