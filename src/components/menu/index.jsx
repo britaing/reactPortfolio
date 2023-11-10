@@ -1,30 +1,24 @@
-import { Link, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import Form from "react-bootstrap/Form";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 
-function Menu(props) {
+
+function Menu() {
   return (
-    <div className="d-flex p-2 navMenu"  >
-      <Navbar fixed="top" bg="dark" data-bs-theme="dark" >
+    <div className="d-flex p-2 navMenu">
+      <Navbar fixed="top" bg="dark" data-bs-theme="dark">
         <Container fluid="lg">
           <Navbar.Brand href="https://github.com/britaing">
             <strong>Britain Gilgour</strong>
           </Navbar.Brand>
           <Nav>
-            <Col>
-              <Nav.Link href="#about">About</Nav.Link>
-            </Col>
-            <Col>
-              <Nav.Link href="#about">Portfolio</Nav.Link>
-            </Col>
-            <Col>
-              <Nav.Link href="#about">Contact</Nav.Link>
-            </Col>
+            <Nav.Link href="/About">About</Nav.Link>
+
+            <Nav.Link href="/Portfolio">Portfolio</Nav.Link>
+
+            <Nav.Link href="/Contact">Contact</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
