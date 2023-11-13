@@ -10,7 +10,7 @@ function About() {
               <Figure.Image
                 width={171}
                 height={180}
-                alt="171x180"
+                alt="profile picture"
                 src={profilePic}
               />
             </Figure>
