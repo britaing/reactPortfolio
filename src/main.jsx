@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 import App from './App';
 import About from './components/about';
-import Portfolio from './components/portfolio';
+import Portfolio from './components/portfolio'
 import Contact from './components/contactMe'
 
 const router = createBrowserRouter([
@@ -17,15 +17,15 @@ const router = createBrowserRouter([
         element: <About />,
       },
       {
-        path: '/About',
+        path: '/about',
         element: <About />,
       },
       {
-        path: '/Portfolio',
+        path: '/portfolio',
         element: <Portfolio />,
       },
       {
-        path: '/Contact',
+        path: '/contact',
         element: <Contact />,
       },
     ],
