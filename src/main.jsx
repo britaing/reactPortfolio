@@ -3,9 +3,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 import App from './App';
-import About from './components/about';
-import Portfolio from './components/myPortfolio'
-import Contact from './components/contactMe'
+import About from './components/About';
+import Portfolio from './components/MyPortfolio'
+import Contact from './components/Contact'
 
 const router = createBrowserRouter([
   {
@@ -17,15 +17,15 @@ const router = createBrowserRouter([
         element: <About />,
       },
       {
-        path: '/about',
+        path: '/About',
         element: <About />,
       },
       {
-        path: '/myPortfolio',
+        path: '/MyPortfolio',
         element: <Portfolio />,
       },
       {
-        path: '/contactMe',
+        path: '/Contact',
         element: <Contact />,
       },
     ],
