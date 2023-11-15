@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 import App from './App';
 import About from './components/about';
-import Portfolio from './components/portfolio'
+import Portfolio from './components/portfolio/index.jsx'
 import Contact from './components/contactMe'
 
 const router = createBrowserRouter([
