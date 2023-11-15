@@ -14,11 +14,11 @@ function Menu() {
             <strong>Britain Gilgour</strong>
           </Navbar.Brand>
           <Nav>
-            <Nav.Link href="/About">About</Nav.Link>
+            <Nav.Link href="/about">About</Nav.Link>
 
-            <Nav.Link href="/Portfolio">Portfolio</Nav.Link>
+            <Nav.Link href="/myPortfolio">Portfolio</Nav.Link>
 
-            <Nav.Link href="/Contact">Contact</Nav.Link>
+            <Nav.Link href="/contactMe">Contact</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
