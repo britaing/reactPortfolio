@@ -3,9 +3,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 import App from './App';
-import Contact from './components/contact';
 import About from './components/about';
 import Portfolio from './components/portfolio';
+import Contact from './components/contactMe'
 
 const router = createBrowserRouter([
   {

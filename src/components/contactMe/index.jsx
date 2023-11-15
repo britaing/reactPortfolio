@@ -32,9 +32,7 @@ const sendEmail = (e) => {
       <div class="row">
         <div class="col align-self-center">
           <h1 class="text-center">Contact Me</h1>
-          {/* <!-- contact form --> */}
           <form ref={form} onSubmit={sendEmail}>
-            {/* <!-- name --> */}
             <div class="form-group">
               <label for="name">Name</label>
               <input
@@ -46,7 +44,6 @@ const sendEmail = (e) => {
               />
             </div>
 
-            {/* <!-- email --> */}
             <div class="form-group">
               <label for="email">Email address</label>
               <input
@@ -58,7 +55,6 @@ const sendEmail = (e) => {
               />
             </div>
 
-            {/* <!-- subject --> */}
             <div class="form-group">
               <label for="subject">Subject</label>
               <input
